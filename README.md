@@ -31,7 +31,7 @@
  +서브캐릭터의 사망은 없다.
 
 >#### Class Diagram
- ![zombie](https://github.com/yujin-lim/zombi/blob/main/zombi.jfif)
+ ![zombie](https://github.com/yujin-lim/zombi/blob/main/zombi.jpg)
 
 
  
