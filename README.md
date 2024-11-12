@@ -30,6 +30,10 @@
  
  +서브캐릭터의 사망은 없다.
 
+
+ ![zombie](https://github.com/yujin-lim/zombi/blob/main/zombi.jpg)
+
+
  
 
 
