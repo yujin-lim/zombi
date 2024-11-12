@@ -1,8 +1,8 @@
 # Zombie Game
 
-## 자바로 다형성 콘솔 게임을 구현해보았습니다.
+>## 자바로 다형성 콘솔 게임을 구현해보았습니다.
 
-### 설명
+>### 설명
 *위치에 생성된 zombi와 boss를 죽이는 게임
 ********
 *hero의 공격과 포션을 적절히 사용하여 적들을 죽이고 보물을 차지해야한다.
@@ -30,13 +30,13 @@
  
  +서브캐릭터의 사망은 없다.
 
-
+>#### Class Diagram
  ![zombie](https://github.com/yujin-lim/zombi/blob/main/zombi.jpg)
 
 
  
 
-
+>##### Demo
 ![zombie](https://raw.githubusercontent.com/yujin-lim/zombi/60de8b87adccdb8fac0c56b37c9eb288ebf6d942/zombie.gif)
 
 
