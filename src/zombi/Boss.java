@@ -3,9 +3,9 @@ package zombi;
 public class Boss extends Unit {
 	
 	
-	int power;
-	int shield;
-	int count;
+	private int power;
+	private int shield;
+	private int count;
 	
 	public  Boss(int pos, int hp, int max, int count, int power, int shield){
 		super(pos, hp, max);

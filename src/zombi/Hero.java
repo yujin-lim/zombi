@@ -3,9 +3,9 @@ package zombi;
 
 public class Hero extends Unit implements Repairable{
 	
-	int power;
-	int shield;
-	int count;
+	private int power;
+	private int shield;
+	private int count;
 	
 	public Hero(int pos, int hp, int max, int count, int power, int shield) {
 		super(pos, hp, max);
@@ -42,7 +42,7 @@ public class Hero extends Unit implements Repairable{
 	}
 
 	@Override
-	void attack(Unit enemy) {
+	public void attack(Unit enemy) {
 		if (enemy instanceof Boss) {
 			Boss boss = (Boss) enemy;
 

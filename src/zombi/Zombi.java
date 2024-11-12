@@ -3,9 +3,9 @@ package zombi;
 
 public class Zombi extends Unit {
 
-	int power;
-	int shield;
-	int count;
+	private int power;
+	private int shield;
+	private int count;
 
 	public Zombi(int pos, int hp, int max, int count, int power, int shield) {
 		super(pos, hp, max);
@@ -24,7 +24,7 @@ public class Zombi extends Unit {
 	}
 
 	@Override
-	void attack(Unit hero) {
+	public void attack(Unit hero) {
 		hero.setHp(hero.getHp() - power);
 		if (hero.getHp() <= 0) {
 			hero.setHp(0);
