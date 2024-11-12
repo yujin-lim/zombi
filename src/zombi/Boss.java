@@ -29,7 +29,7 @@ public class Boss extends Unit {
 	}
 
 	@Override
-	void attack(Unit hero) {
+	public void attack(Unit hero) {
 	
 		hero.setHp(hero.getHp()-power);
 		if(hero.getHp() <= 0) {
