@@ -2,23 +2,34 @@ package zombi;
 
 
 public class Zombi extends Unit {
-	
+
 	int power;
 	int shield;
 	int count;
-	
-	public Zombi (int pos, int hp, int max, int count, int power, int shield){
+
+	public Zombi(int pos, int hp, int max, int count, int power, int shield) {
 		super(pos, hp, max);
 		this.count = count;
 		this.power = power;
 		this.shield = shield;
-		
-	}
-	
-	@Override
-	void attack(Unit unit) {
-		// TODO Auto-generated method stub
-		
+
 	}
 
+	public int getPower() {
+		return power;
+	}
+
+	public void setPower(int power) {
+		this.power = power;
+	}
+
+	@Override
+	void attack(Unit hero) {
+		hero.setHp(hero.getHp() - power);
+		if (hero.getHp() <= 0) {
+			hero.setHp(0);
+		}
+		System.out.println("좀비가 " + power + "의 공격력으로 공격" );
+		System.out.println(" 현재 Hero hp : " + hero.getHp());
+	}
 }
