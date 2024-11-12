@@ -37,7 +37,7 @@
  
 
 >##### Demo
-![zombie](https://raw.githubusercontent.com/yujin-lim/zombi/60de8b87adccdb8fac0c56b37c9eb288ebf6d942/zombie.gif)
+![zombi](https://github.com/yujin-lim/zombi/blob/main/zombi.gif)
 
 
  
